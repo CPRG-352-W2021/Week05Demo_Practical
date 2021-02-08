@@ -24,5 +24,10 @@
             <p>Average: ${average}</p>
         </div>
         
+        <form method="get" action="average">
+            <input type="submit" value="Reset">
+            <input type="hidden" name="reset" value="true">
+        </form>
+        
     </body>
 </html>
